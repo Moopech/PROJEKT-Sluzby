@@ -3,18 +3,18 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 
-body { 
+.main { 
   width: 500px;
   height: 1655px;
-  font-size: 13px;
+  font-size: 16px;
   justify-content: center;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   border: 2px solid #fafafa;
-  padding: 20px;
-}
+  padding: 10px;
+  }
 
-.traveller {
+  .traveller {
     width: 350px;
     height: 290px;
     align-items: center;
@@ -38,6 +38,7 @@ margin-top: 10px;
 h2, h3 {
 	font-size:16px;
 	font-weight: bold;
+  padding-top: 5px;
 }
 
 /*.tlacitka {
@@ -72,10 +73,11 @@ justify-content: center;
 .icon {
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid #c34d4d;
+  box-shadow: 2px 4px 6px #407BFF1F;
   width: 460px;
+  height: 80px;
+  font-size: 13px;
   padding: 20px;
   margin-bottom: 5px;
-  
   }
 
