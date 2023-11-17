@@ -1,0 +1,81 @@
+
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+
+body { 
+  width: 500px;
+  height: 1655px;
+  font-size: 13px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #fafafa;
+  padding: 20px;
+}
+
+.traveller {
+    width: 350px;
+    height: 290px;
+    align-items: center;
+    padding: 60px;
+  }
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  }
+h1::after {
+content: "";
+width: 60px;
+height: 3px;
+background-color: #407BFF;
+display: block;
+margin-left: 45%;
+margin-top: 10px;
+}  
+
+h2, h3 {
+	font-size:16px;
+	font-weight: bold;
+}
+
+/*.tlacitka {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}*/
+
+
+.button1, .button2 {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  margin: 8px auto;
+  border-radius: 20px;
+  padding: 10px;
+        
+}
+
+.button1 {
+  width: 195px;
+  height: 40px;
+  background-color: #407BFF
+}
+
+.button2 {
+  width: 220px;
+  height: 40px;
+  background-color:#8B8B8B
+}
+
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #c34d4d;
+  width: 460px;
+  padding: 20px;
+  margin-bottom: 5px;
+  
+  }
+
