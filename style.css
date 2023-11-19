@@ -80,25 +80,13 @@ h2, h3 {
 
 @media screen and (min-width: 640px) {
   
-  .main { 
-    width: 768px;
-    height: 1655px;
-    font-size: 16px;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid #fafafa;
-  }
-  .textmain {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
   .traveller {
     width: 400px;
     height: 330px;
     align-items: center;
     padding: 60px;
   }
+
   .tlacitka {
     display: flex;
     justify-content: center;
@@ -106,30 +94,81 @@ h2, h3 {
     margin-left: 160px;
     margin-right: 160px;   
   }
- 
-.icon {
+
+  .icon {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: max-content;
     height: 170px;
     margin: 20px;
+  }
+
+  .odkazy, .odkazy2 {
+    display: flex;
+  }
+
 }
 
+/*PC*/
 
-.odkazy {
+@media screen and (min-width: 1100px) {
+
+  .main {
+    width: 1200px;
+    height: 1015px;
+    text-align: left;
+    padding-left: 80px;
+  }
+  
+  .tlacitka {
+    margin-left: 0%;
+  }
+
+   /* ÚVODNÍ TEXT S TLACITKY*/ 
+  .button {
+    width: 500px;
+    height: 65px;
+    
+  }
+  /* ÚVODNÍ TEXT S TLACITKY A OBRÁZEK TRAVELLER*/ 
+  .toppc {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+   
+  }
+  h1::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #407BFF;
+    margin-left: 0%;
+    margin-top: 10px;
+  }  
+
+  /* 3 ICON A SLUŽBY CK*/ 
+  .sluzby1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  /* SLUŽBY DELEGATA A 3 ICON*/ 
+  .sluzby2 {
     display: flex;
     justify-content: space-evenly;
-}
+    padding: 20px;
+    margin-top: 20px;
+  }
 
-.odkazy2 {
-    display: flex;
+  .icon {
+    align-items: center;
+    text-align: center;
+    width: 170px;
+    height: 190px;
+    margin: 10px;
+  }
 }
-
-/*.tlacitka {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}*/
-}
-
